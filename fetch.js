@@ -75,7 +75,7 @@ function displayData(countries) {
     html += "</div>";
   });
 
-  //console.log(html);
+ 
   if (html != "") {
     document.querySelector("#countries").innerHTML = html;
   }
