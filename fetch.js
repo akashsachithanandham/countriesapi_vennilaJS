@@ -54,7 +54,7 @@ function displayData(countries) {
     html += '<div class="card ">';
     html += `
             <div>
-                <img src="${country.flag}" alt="Germany" />
+                <img src="${country.flag}" alt="country flag" />
             </div>
             <div class="card-body">
                 <h3 class="country-name">${country.name}</h3>
