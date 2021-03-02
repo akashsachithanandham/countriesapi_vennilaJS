@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Countries</title>
+    <link rel="stylesheet" href="spinner.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <script src="fetch.js"></script>
+    <div>
+      <input
+        id="search"
+        class="search"
+        type="text"
+        placeholder="Search..."
+        onchange="searchFilter()"
+        style="float: left"
+      />
+
+      <button
+        onclick="searchFilter()"
+        class="search"
+        style="
+          display: inline;
+          min-width: 20px;
+          margin-left: -20px;
+          cursor: pointer;
+        "
+      >
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+
+      <div id="filterDiv" style="float: right">
+        <select id="filter" onchange="selectFilter()">
+          <option value="all" diabled>Filter</option>
+          <option value="all">All</option>
+          <option value="africa">Africa</option>
+          <option value="americas">Americas</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+      </div>
+    </div>
+    <h4
+      id="noitem"
+      style="margin-top: 100px; text-align: center; font-size: 25px"
+      hidden
+    >
+      No item found!
+    </h4>
+    <div id="country" style="float: left">
+      <section style="margin-top: 10px">
+        <div class="container" id="countries"></div>
+      </section>
+    </div>
+    <div id="spinner"></div>
+  </body>
+</html>
