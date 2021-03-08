@@ -16,9 +16,9 @@ Check out the site here: https://akashsachithanandham.github.io/countriesapi_ven
 
 ScreenShots: 
 
-<img src="https://user-images.githubusercontent.com/46894142/110328316-35df7a80-8041-11eb-8a4c-0160718e8d2b.png" width:400px, height=300px>
+<img src="https://user-images.githubusercontent.com/46894142/110328316-35df7a80-8041-11eb-8a4c-0160718e8d2b.png" width="400px" height="300px">
 
 
-<img src="https://user-images.githubusercontent.com/46894142/110328414-56a7d000-8041-11eb-9f09-3196c1b041ee.png" width:400px, height=300px>
+<img src="https://user-images.githubusercontent.com/46894142/110328414-56a7d000-8041-11eb-9f09-3196c1b041ee.png" width="400px" height="300px">
 
 
